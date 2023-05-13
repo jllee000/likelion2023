@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Gaegu', cursive;
+    box-sizing: border-box;
+ }
+ 
+  
+  header {
+    width: 100vw;
+    height: 5vh;
+    margin : 0;
+    background-color:#d987af;
+  }
+
+  a:link {color : black;}
+  a:visited {color : black;}
+  
+  .container {
+    display: flex;
+    width: 100vw;
+    margin : 0 auto;
+    height: 90vh;
+  }
+
+  #left-sidebar {
+    flex: auto;
+    flex-basis: 1px;
+    flex-grow: 1;
+    background-color:#d987af;
+  }
+  h2 {
+    color: #67364e;
+  }
+  /* 텍스트 넘치는 건 어쩔수 없나? */
+  #contents {
+    flex: auto;
+    flex-basis: 3px;
+    flex-grow: 3;
+    background-color:#f1d1e8;
+  }
+  
+  #right-sidebar {
+    flex: auto;
+    flex-grow: 2;
+    flex-basis: 2px;
+    background-color:#d987af;
+    object-fit : cover;
+  }
+  /* 사진 꽉참이 안됨... */
+  .image {
+    object-fit: cover;
+  }
+
+/* 왜 container와 footer사이에 공백? */
+  #footer {
+    clear: both;
+    width: 100vw;
+    height: 5vh;
+    background-color:#f1d1e8;
+  }
+  
